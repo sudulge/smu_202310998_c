@@ -89,8 +89,8 @@ int main(void) {
 			}
 		}
 		else {
-			printf("네이버 멤버십 추가적립 %d원 \n", (int)(price * 0.01));
-			sum += (int)(price * 0.01);
+			printf("네이버 멤버십 추가적립 %d원 \n", (int)(price * 0.04));
+			sum += (int)(price * 0.04);
 		}
 	}
 
