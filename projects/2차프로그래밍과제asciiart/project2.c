@@ -52,10 +52,11 @@ int main(void) {
 				printf(" ");
 			}
 
-			for (int k = 0; k < row_len; k++) {
-				printf("%c", *((i * row_len) + asciiart + k));
-			}
-			printf("\n");
+			printf("%s\n", asciiart + (i * row_len)); // 문자열의 시작 위치를 바꿔서 출력;
+			//for (int k = 0; k < row_len; k++) {
+			//	printf("%c", *((i * row_len) + asciiart + k));
+			//}
+			//printf("\n");
 		}
 
 		printf("\n");
