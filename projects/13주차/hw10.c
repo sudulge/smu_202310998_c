@@ -2,11 +2,12 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#define MAX_STRING_SIZE 30
 
 
 typedef struct city {
-	char name[20];
-	char country[20];
+	char name[MAX_STRING_SIZE];
+	char country[MAX_STRING_SIZE];
 	int population;
 } City;
 
