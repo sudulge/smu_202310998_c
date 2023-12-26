@@ -4,10 +4,11 @@
 
 int displayString(char str[], int cnt) {
 
-	for (int j = 0; j < strlen(str)-1 - cnt; j++) {
+	for (int j = 0; j < strlen(str) - 1 - cnt; j++) {
 		printf("%c", str[cnt + j]);
 	}
-		
+	printf(" ");
+
 	for (int j = 0; j < cnt; j++) {
 		printf("%c", str[j]);
 	}
@@ -15,18 +16,14 @@ int displayString(char str[], int cnt) {
 
 }
 
-int func(char str[]) {
-	printf("%s", str);
-}
+
 int main() {
-	char str[50];
+	char str[30];
 	printf("문자열을 입력하세요: ");
 
 	fgets(str, sizeof(str), stdin);
+
 	for (int i = 0; i < strlen(str); i++) {
 		displayString(str, i);
 	}
-
-
-
 }
