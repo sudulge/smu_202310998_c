@@ -1,0 +1,4 @@
+﻿  final1_202310998.c
+C:\Desktop\_\project\smu_c\projects\final\Project2\final1_202310998.c(16): warning C4716: 'displayString': 값을 반환해야 합니다.
+C:\Desktop\_\project\smu_c\projects\final\Project2\final1_202310998.c(20): warning C4716: 'func': 값을 반환해야 합니다.
+  Project2.vcxproj -> C:\Desktop\_\project\smu_c\projects\final\Project2\x64\Debug\Project2.exe

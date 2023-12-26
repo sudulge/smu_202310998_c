@@ -1,0 +1,11 @@
+﻿  project1.c
+C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(38,17): warning C4133: '함수': 'Class *'과(와) 'const char *' 사이의 형식이 호환되지 않습니다.
+C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(39,13): warning C4477: 'printf' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double *'입니다.
+C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(52,17): warning C4133: '함수': 'Class *'과(와) 'const char *' 사이의 형식이 호환되지 않습니다.
+C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(53,13): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(53,13):
+  자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+  C:\Desktop\_\project\smu_c\projects\final\Project1\project1.c(53,13):
+  누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+  
+  Project1.vcxproj -> C:\Desktop\_\project\smu_c\projects\final\Project1\x64\Debug\Project1.exe
