@@ -36,7 +36,7 @@ int main() {
 
 			for (int i = 0; i < 5; i++) {
 				if (!strcmp(&(&class[i])[0], input_class_name)) {
-					printf("%s 과목은 %s(으)로 구분되며, 강의평가점수는 %lf점입니다.", input_class_name, (&class[i].class_category), (&class[i].class_score));
+					printf("%s 과목은 %s(으)로 구분되며, 강의평가점수는 %lf점입니다.", input_class_name, &((&class[i])[1]), (&class[i])[2]);
 					break;
 				}
 			}
